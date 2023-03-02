@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+* {
+  color: gold;
+  font-family: "Poppins", sans-serif;
+}
+h5,
+h1,
+h4,
+h6 {
+  font-style: italic;
+}
+h1 {
+  font-weight: 900;
+}
+form .boton-enviar {
+  color: black !important;
+}
+form .boton-reset {
+  color: black !important;
+}
