@@ -21,6 +21,7 @@ form .boton-reset {
 .imgbannersedes {
   width: 100vw;
 }
- header ul {
+.nav {
   list-style: none;
+  text-decoration: none !important;
 }
