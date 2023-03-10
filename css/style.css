@@ -5,10 +5,8 @@ body {
   color: gold;
   font-family: "Poppins", sans-serif;
 }
-h5,
-h1,
-h4,
-h6 {
+
+h1 {
   font-style: italic;
 }
 h1 {
@@ -19,4 +17,10 @@ form .boton-enviar {
 }
 form .boton-reset {
   color: black !important;
+}
+.imgbannersedes {
+  width: 100vw;
+}
+ header ul {
+  list-style: none;
 }
