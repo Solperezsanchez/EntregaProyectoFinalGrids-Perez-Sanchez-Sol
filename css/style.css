@@ -21,11 +21,23 @@ form .boton-reset {
 .imgbannersedes {
   width: 100vw;
 }
-.nav {
+.nav li {
   list-style: none;
+  display: inline;
+  padding: 20px;
 }
 a:link,
 a:visited,
 a:active {
   text-decoration: none;
+}
+.registroIniciar h5 {
+  padding: 10px;
+  
+}
+.registroIniciar {
+  margin: 20px;
+}
+div .logoTop {
+  width: 270px;
 }
