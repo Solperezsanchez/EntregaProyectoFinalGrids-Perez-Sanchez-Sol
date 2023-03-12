@@ -14,17 +14,24 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <img src="./img/logoAresFitness.png" alt="logo-ares-gym" class="logoTop"/>
-      </div>
-      <span class="registroIniciar">
-        <h5 style="display: inline">Registrarse</h5>
-        <h5 style="display: inline">Iniciar sesion</h5>
+    <header class="sticky">
+      <span>
+        <img
+          src="./img/logoAresFitness.png"
+          alt="logo-ares-gym"
+          class="logoTop"
+        />
+        <div>
+          <ul class="registro">
+            <li>Registrarse</li>
+            <li>Iniciar sesion</li>
+          </ul>
+        </div>
       </span>
+
       <div>
         <nav>
-          <ul class="nav"> 
+          <ul class="nav">
             <li><a href="#">Inicio</a></li>
             <li><a href="./pages/clases.html">Clases</a></li>
             <li><a href="./pages/planes.html">Planes</a></li>
@@ -38,27 +45,34 @@
     <main>
       <h1>INDEX</h1>
     </main>
-    <span>
+    <span class="imagenesInicio">
       <img
-        src="./img/index/caminadoras-index.jpeg"
+        src="./img/index/caminadoraIndex.jpg"
         alt="caminadoras-index"
-        class="img-caminadora"
+        class="imgCaminadora"
       />
-      <img src="./img/index/gym-index.jpeg" alt="gym-index" class="img-gym" />
+      <img src="./img/index/gym-index.jpeg" alt="gym-index" class="imgGym" />
       <img
         src="./img/index/lockers-index.jpeg"
         alt="lockers-index"
-        class="img-lockers"
+        class="imgLockers"
       />
     </span>
     <div>
-      <h1>MAS QUE UN GIMNASIO</h1>
-      <h1>MAS QUE UN CLUB</h1>
+      <p class="textoNosotros">
+        Somos un gimnasio que busca la inclusion, el bienestar tanto fisico como
+        mental para cada uno de nuestros clientes. Nosotros nos interesamos por
+        vos, por eso somos mas que un gimnasio y un club, somos tu familia de
+        profesionales que velan por tu salud. Contamos con mas de 20 años de
+        trayectoria ayudando a la gente a encontrarse, amarse y cuidarse. ¿Vos
+        que esperas para sumarte a la familia?
+      </p>
     </div>
     <div>
       <iframe
-        width="560"
-        height="315"
+        class="videoyt"
+        width="1800px"
+        height="975px"
         src="https://www.youtube.com/embed/XAK7-jsEn88"
         title="YouTube video player"
         frameborder="0"
@@ -67,4 +81,43 @@
       ></iframe>
     </div>
   </body>
+  <footer class="footer">
+    <div>
+      <ul class="listaInfoFooter">
+        <li>TELEFONO</li>
+        <li>CORREO</li>
+        <li>NUESTRAS REDES</li>
+      </ul>
+    </div>
+    <div>
+      <h6 class="h6NumeroFooter">0810 444 6789</h6>
+      <h6 class="h6MailFooter">info@aresfitness.com.ar</h6>
+      <img
+        src="./img/instagramIconFooter.jpeg"
+        alt="iconoig"
+        class="iconoInsta"
+      />
+      <img
+        src="./img/wspIconFooter.jpeg"
+        alt="iconowsp"
+        class="iconoWhatsapp"
+      />
+      <img
+        src="./img/youtubeIconFooter.jpeg"
+        alt="iconoyoutube"
+        class="iconoYt"
+      />
+      <img
+        src="./img/tiktokIconFooter.jpeg"
+        alt="iconotiktok"
+        class="iconoTiktok"
+      />
+    </div>
+    <span>
+      <p class="derechos">
+        Todos los derechos reservados a Ares Fitness 2023 | Powered by
+      </p>
+      <h2 class="h2autor">SOL EUGENIA PEREZ SANCHEZ</h2>
+    </span>
+  </footer>
 </html>
