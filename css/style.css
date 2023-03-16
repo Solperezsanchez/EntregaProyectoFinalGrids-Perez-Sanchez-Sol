@@ -2,7 +2,6 @@ body {
   background-color: black;
 }
 * {
-  color: gold;
   font-family: "Poppins", sans-serif;
 }
 
@@ -13,17 +12,20 @@ h1 {
   font-weight: 900;
 }
 form .boton-enviar {
-  color: black !important;
+  color: black;
 }
 form .boton-reset {
-  color: black !important;
+  color: black; 
 }
 .imgbannersedes {
   width: 100vw;
+  overflow: auto;
 }
-.bannersedes {
+.bannersedes{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .nav li {
   list-style: none;
@@ -145,7 +147,7 @@ padding: 20px;
 
 }
 .footer {
-  background-color: #1c1902;
+  background-color: gold;
 
 }
 .contactofooter{
@@ -162,4 +164,12 @@ padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.planesorden{
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+}
+.nav {
+  color: gold !important;
 }
