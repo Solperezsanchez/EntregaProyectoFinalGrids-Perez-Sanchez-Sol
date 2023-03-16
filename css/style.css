@@ -110,25 +110,29 @@ a:active {
 }
 .sizeh5 h5 {
   font-size: 40px;
-  position: relative;
   left: 450px;
   bottom: 250px;
 }
 .listaInfoFooter li {
   list-style: none;
-  padding: 35px;
   font-size: 30px;
+  padding: 20px;
+}
+.listaInfoFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .h6NumeroFooter {
   font-size: 15px;
-  padding: 35px;
-  bottom: 45px;
-  left: 55px;
+padding: 20px;
+  margin: 0px;
 }
 .h6MailFooter {
   font-size: 15px;
-  bottom: 45px;
-  left: 80px;
+  padding: 20px;
+  margin: 0px;
+
 }
 .iconoInsta,
 .iconoWhatsapp,
@@ -136,14 +140,26 @@ a:active {
 .iconoTiktok {
   width: 40px;
   height: 40px;
-  left: 150px;
-  bottom: 15px;
+  padding: 10px;
+  margin: 0px;
+
 }
 .footer {
   background-color: #1c1902;
-  padding-left: 550px;
+
+}
+.contactofooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 .h2autor {
-  bottom: 48px;
-  left: 530px;
+  padding: 10px;
+  margin:0px;
+}
+.derechosDeAutor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
