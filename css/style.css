@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 h1 {
@@ -15,13 +15,13 @@ form .boton-enviar {
   color: black;
 }
 form .boton-reset {
-  color: black; 
+  color: black;
 }
 .imgbannersedes {
   width: 100vw;
   overflow: auto;
 }
-.bannersedes{
+.bannersedes {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -41,6 +41,7 @@ a:link,
 a:visited,
 a:active {
   text-decoration: none;
+  color: gold;
 }
 .logoTop {
   width: 270px;
@@ -127,14 +128,13 @@ a:active {
 }
 .h6NumeroFooter {
   font-size: 15px;
-padding: 20px;
+  padding: 20px;
   margin: 0px;
 }
 .h6MailFooter {
   font-size: 15px;
   padding: 20px;
   margin: 0px;
-
 }
 .iconoInsta,
 .iconoWhatsapp,
@@ -144,13 +144,11 @@ padding: 20px;
   height: 40px;
   padding: 10px;
   margin: 0px;
-
 }
 .footer {
   background-color: gold;
-
 }
-.contactofooter{
+.contactofooter {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -158,18 +156,40 @@ padding: 20px;
 }
 .h2autor {
   padding: 10px;
-  margin:0px;
+  margin: 0px;
 }
 .derechosDeAutor {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.planesorden{
+.planesorden {
   display: flex;
   flex-direction: row;
-  justify-content:center ;
+  justify-content: center;
+  justify-content: space-evenly;
+
 }
-.nav {
-  color: gold !important;
+.starter {
+  background-color: white;
+padding: 20px;
+}
+.medium {
+  background-color: white;
+  padding: 20px;
+}
+.black {
+  background-color: white;
+  padding: 20px;
+}
+.zeus {
+  background-color: white;
+  padding: 20px;
+}
+h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.planesorden h5 {
+  font-size: 20px;
 }
