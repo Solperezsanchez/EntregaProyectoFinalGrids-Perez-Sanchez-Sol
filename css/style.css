@@ -55,6 +55,7 @@ a:active {
 .registro li {
   list-style: none;
   padding: 10px;
+  color: gold;
 }
 .registro {
   display: flex;
@@ -168,7 +169,9 @@ a:active {
   flex-direction: row;
   justify-content: center;
   justify-content: space-evenly;
-
+  background-color: gold;
+ margin: 40px;
+padding: 200px;
 }
 .starter {
   background-color: white;
