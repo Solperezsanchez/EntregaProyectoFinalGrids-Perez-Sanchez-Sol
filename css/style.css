@@ -21,14 +21,19 @@ form .boton-reset {
 .imgbannersedes {
   width: 100vw;
 }
+.bannersedes{
+  display: flex;
+  flex-wrap: wrap;
+}
 .nav li {
   list-style: none;
-  display: inline;
-  padding: 20px;
-  position: relative;
-  left: 1150px;
-  bottom: 30px;
+  padding: 30px;
   font-size: 20px;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 a:link,
 a:visited,
@@ -40,13 +45,13 @@ span .logoTop {
 }
 .registro li {
   list-style: none;
-  display: inline;
+  display: flex;
   padding: 10px;
-  position: relative;
   bottom: 42px;
   left: 1600px;
 }
 .imagenesInicio {
+  display: flex;
   align-content: center;
 }
 .imgGym {
@@ -98,22 +103,17 @@ span .logoTop {
 }
 .listaInfoFooter li {
   list-style: none;
-  display: inline;
   padding: 35px;
   font-size: 30px;
 }
 .h6NumeroFooter {
   font-size: 15px;
-  display: inline;
   padding: 35px;
-  position: relative;
   bottom: 45px;
   left: 55px;
 }
 .h6MailFooter {
   font-size: 15px;
-  display: inline;
-  position: relative;
   bottom: 45px;
   left: 80px;
 }
@@ -122,8 +122,7 @@ span .logoTop {
 .iconoYt,
 .iconoTiktok {
   width: 40px;
-  height: 40px;
-  position: relative;
+  height: 40px; 
   left: 150px;
   bottom: 15px;
 }
@@ -132,7 +131,6 @@ span .logoTop {
   padding-left: 550px;
 }
 .h2autor {
-  position: relative;
   bottom: 48px;
   left: 530px;
 }
