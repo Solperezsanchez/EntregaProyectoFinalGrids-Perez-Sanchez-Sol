@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  width: calc(100vw - (100vw - 100%));
 }
 li .card-itemsplanes {
   color: black !important;
@@ -90,33 +91,7 @@ a:active {
   font-size: 40px;
   color: gold;
 }
-.videoyt {
-  position: relative;
-  left: 45px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.sticky {
-  position: sticky;
-  top: 0;
-  background-color: black;
-}
-.imgCrossfit {
-  width: 400px;
-  height: 275px;
-}
-.funcionalImg {
-  width: 400px;
-  height: 275px;
-}
-.imgMusculacion {
-  width: 400px;
-  height: 275px;
-}
-.imgCycle {
-  width: 400px;
-  height: 275px;
-}
+
 .sizeh5 h5 {
   font-size: 40px;
   left: 450px;
@@ -142,15 +117,7 @@ a:active {
   padding: 20px;
   margin: 0px;
 }
-.iconoInsta,
-.iconoWhatsapp,
-.iconoYt,
-.iconoTiktok {
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  margin: 0px;
-}
+
 .footer {
   background-color: gold;
 }
