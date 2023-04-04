@@ -3,67 +3,12 @@ body {
 }
 * {
   font-family: "Poppins";
+  color: gold;
 }
-.gridindex {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "header"
-    "titulo"
-    "imagenes"
-    "texto"
-    "video"
-    "footer";
-}
-header {
-  grid-area: header;
-}
-main {
-  grid-area: titulo;
-}
-span {
-  grid-area: imagenes;
-}
-div.section {
-  grid-area: texto;
-}
-div {
-  grid-area: video;
-}
-footer {
-  grid-area: footer;
-}
-.gridclases {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: auto auto;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "fila1 fila1"
-    "fila2 fila2"
-    "footer footer";
-}
-.headerclases {
-  grid-area: header;
-}
-.mainclases {
-  grid-area: main;
-}
-.divSclases {
-  grid-area: fila1;
-}
-.divclases {
-  grid-area: fila2;
-}
-.footerclases {
-  grid-area: footer;
-}
-
 h1 {
   font-style: italic;
 }
+
 h1 {
   font-weight: 900;
 }
@@ -122,7 +67,6 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: sticky;
 }
 .imagenesInicio {
   display: flex;
@@ -270,17 +214,29 @@ h1 {
 .h5clases {
   color: gold;
 }
-.divSclases {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  position: relative;
-  right: 110px;
+.card {
+  background-color: gold;
 }
-.sectionclases {
+.card-header {
+  color: black;
+  font-family: "Poppins";
+}
+.card-title {
+  color: black;
+  font-family: "Poppins";
+}
+.card-text {
+  color: black;
+  font-family: "Poppins";
+}
+.position-button{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: row-reverse;
   position: relative;
-  right: 110px;
+}
+.style-button {
+  color:black;
+  background-color: gold;
+  border-radius: 10px;
+  padding: 5px;
 }
