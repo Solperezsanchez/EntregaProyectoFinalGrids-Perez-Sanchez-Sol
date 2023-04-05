@@ -2,6 +2,88 @@ body {
   background-color: black;
   width: calc(100vw - (100vw - 100%));
 }
+
+/*HEADER*/
+header .flexHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.style-button {
+  color: black;
+  background-color: gold;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.style-button-contactanos {
+  color: gold;
+  background-color: black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.logoTop {
+  width: 400px;
+}
+.logoTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/*NAV*/
+nav .divClass {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  border-color: gold;
+}
+.divClass ul li {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.divClass ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.ulNav a {
+  border-color: gold;
+  text-decoration: none;
+  color: gold;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+  border-inline-color: gold !important;
+  padding: 10px;
+  margin: 0px;
+}
+
+/*MAIN*/
+ .carruselDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 6rem;
+}
+/*FOOTER*/
+.divFooter {
+  display: flex;
+  color: darkkhaki;
+}
+
+/*MEDIA DESKTOP*/
+@media (max-width:1024px){}
+
+/*MEDIA MOBILE*/
+@media (max-width:768px){}
+
+
+
 li .card-itemsplanes {
   color: black !important;
 }
@@ -31,30 +113,8 @@ form .boton-reset {
   flex-wrap: wrap;
   justify-content: center;
 }
-.nav li {
-  list-style: none;
-  padding: 30px;
-  font-size: 20px;
-}
-.nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-  color: gold;
-}
-.logoTop {
-  width: 270px;
-}
-.logoTop {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
+
+
 
 .registro li {
   list-style: none;
@@ -66,11 +126,7 @@ a:active {
   flex-direction: row;
   justify-content: flex-end;
 }
-.headerflex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
 .imagenesInicio {
   display: flex;
   align-content: center;
@@ -173,23 +229,12 @@ form {
   color: black;
   font-family: "Poppins";
 }
-.position-button{
+.position-button {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
 }
-.style-button {
-  color:black;
-  background-color: gold;
-  border-radius: 10px;
-  padding: 5px;
-}
-.card-precio { 
+
+.card-precio {
   color: black;
-}
-.style-button-contactanos {
-  color: gold;
-  background-color: black;
-  border-radius: 10px;
-  padding: 5px;
 }
