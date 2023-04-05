@@ -89,15 +89,86 @@ nav {
   width: 380px;
   height: 280px;
 }
+.cardIndex {
+padding: 20px 20px 20px 20px;
+  background-color: gold;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
 
 /*FOOTER*/
-.divFooter {
-  display: flex;
-  color: darkkhaki;
+.pieDePagina{
+  width: 100%;
+  background-color: gold;
+  color: black;
+  font-family: "Poppins";
+  display: block;
+  
+}
+.pieDePagina h2{
+  width: 100%;
+  background-color: gold;
+  color: black;
+  font-family: "Poppins";
+  font-weight: bold; 
+
+}
+.pieDePagina .grupo1 .boxInfo h2{
+  padding-left: 30px;
+}
+.pieDePagina .grupo1 .box ul li{
+  color: black;
+  font-family: "Poppins";
+  text-decoration: none;
+  list-style: none;
+  padding-right: 40px;
+}
+.pieDePagina .grupo1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns:repeat(2, 1fr) ;
+  grid: gap 50px;
+  padding: 45px 0px;
+}
+.pieDePagina .grupo1 .redSocial a{
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  line-height: 45px;
+ margin-right: 10px;
+ background-color:#F2FE2C;
+ text-align: center;
+ padding: 20px;
+  transition: all 300ms ease;
+}
+.pieDePagina .grupo1 .redSocial a:hover{
+  color:darkgoldenrod;
+}
+.pieDePagina .grupo2 {
+  background-color: #F2FE2C;
+  padding: 15px 10px;
+  text-align: center;
+  color: black;
 }
 
 /*MEDIA DESKTOP*/
 @media (max-width: 1024px) {
+  .gymIndex {
+    width: 280px;
+    height: 200px;
+  }
+  .caminadorasIndex {
+    width: 280px;
+    height: 200px;
+  }
+  .lockersIndex {
+    width: 280px;
+    height: 200px;
+  }
 }
 
 /*MEDIA MOBILE*/
@@ -117,6 +188,12 @@ nav {
   .imgIndex {
     flex-direction: column;
     align-content: space-around;
+  }
+  .pieDePagina .grupo1 .grupo2{
+    width: 90%;
+    grid-template-columns:repeat(1, 1fr) ;
+    grid: gap 30px;
+    padding: 35px 0px;
   }
 }
 
