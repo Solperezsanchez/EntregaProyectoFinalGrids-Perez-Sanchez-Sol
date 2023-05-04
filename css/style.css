@@ -7,7 +7,24 @@ body {
   font-family: "Poppins";
   
 }
-/*GRIDS*/
+/*GRIDS SEDES*/
+.container-sedes{
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+   "header"
+   "nav"
+   "main"
+   "footer"
+  ;
+}
+header {grid-area: header;}
+nav {grid-area: nav;}
+main{grid-area: main;}
+footer{grid-area: footer;}
+
 
 
 /*HEADER*/
@@ -51,9 +68,9 @@ nav .divClass {
 nav {
   margin-top: 3rem;
   margin-bottom: 2rem;
-  display: flex;
+  display:flex;
   justify-content: flex-end;
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 .aNav {
@@ -103,7 +120,7 @@ nav {
 
 /*FOOTER*/
 .pieDePagina {
-  width: 100%;
+  width: 100vw;
   background-color: gold;
   color: black;
   font-family: "Poppins";
