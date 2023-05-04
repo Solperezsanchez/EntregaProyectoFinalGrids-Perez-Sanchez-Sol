@@ -417,3 +417,15 @@ form {
   border-radius: 8px;
   text-decoration: none;
 }
+.cardPlanes:hover{
+background-color: rgb(62, 62, 62);
+color: gold;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 1s ease;
+}
+.cardClases:hover{
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
