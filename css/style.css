@@ -190,19 +190,19 @@ nav {
     min-width: 320px;
     margin:auto;
   }
-  .gymimg{
+  .gymIndex{
     width: 100%;
-    border-radius: 15px;
+    margin-bottom: 1rem;
     display: block;
   }
-  .piletaimg{
+  .piletaIndex{
     width: 100%;
-    border-radius: 15px;
+    margin-bottom: 1rem;
     display: block;
   }
-  .lockersimg{
+  .lockersIndex{
     width: 100%;
-    border-radius: 15px;
+    margin-bottom: 1rem;
     display: block;
   }
   .pieDePagina .grupo1 .grupo2 {
