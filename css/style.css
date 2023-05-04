@@ -5,7 +5,10 @@ body {
 }
 * {
   font-family: "Poppins";
+  
 }
+/*GRIDS*/
+
 
 /*HEADER*/
 header .flexHeader {
@@ -167,11 +170,10 @@ nav {
     width: 280px;
     height: 200px;
   }
-  .horariosImg{
+  .horariosImg {
     width: 100vw;
   }
 }
-
 
 /*MEDIA MOBILE*/
 @media (max-width: 768px) {
@@ -192,19 +194,19 @@ nav {
     width: 75vw;
     max-width: 1000px;
     min-width: 320px;
-    margin:auto;
+    margin: auto;
   }
-  .gymIndex{
+  .gymIndex {
     width: 100%;
     margin-bottom: 1rem;
     display: block;
   }
-  .piletaIndex{
+  .piletaIndex {
     width: 100%;
     margin-bottom: 1rem;
     display: block;
   }
-  .lockersIndex{
+  .lockersIndex {
     width: 100%;
     margin-bottom: 1rem;
     display: block;
@@ -220,14 +222,11 @@ nav {
     width: 75vw;
     max-width: 1000px;
     min-width: 320px;
-    margin:auto;
+    margin: auto;
   }
-  .horariosImg{
+  .horariosImg {
     width: 100%;
-    
   }
-
-
 }
 
 li .card-itemsplanes {
@@ -304,31 +303,7 @@ form {
   position: relative;
 }
 /*MAIN PLANES*/
-.planes {
-  width: 100%;
-  max-width: 1200px;
-  height: 430px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-left: 4rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-}
-.planes .cardPlanes {
-  width: 230px;
-  height: 330px;
-  border-radius: 20px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0, 2);
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.25s;
-  background-color: gold;
-  padding-top: 40px;
-  color: black;
-}
+
 .planes .cardPlanes:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 12px rgba(0, 0, 0, 0, 2);
@@ -344,32 +319,84 @@ form {
   margin-bottom: 3rem;
   border-radius: 40px;
 }
-.horariosDiv {
-  margin: 5rem 5rem 5rem 5rem;
-}
-/*CARD CLASES*/
-.mainclases{
-  padding: 0;
-  margin: 2rem;
-  min-width: 100vw;
+/*CARD PLANES*/
+.container-planes{
   display: flex;
-  align-items: center;
-}
-.containercards{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.card-section{
-display: grid !important;
-gap: 1.75rem;
-grid-template-columns:repeat(auto fill, minmax(280px,1fr)!important) ;
-grid-template-rows: 1fr 1fr;
-}
-
-.card{
-  padding: 1.75rem;
-  border-radius: 1rem;
-  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
-.card .card-header
+.cardPlanes{
+  background-color: gold;
+  width: 330px;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+}
+.card-title h4 {
+  padding: 25px;
+  text-align: center;
+  margin: 10px;
+}
+.cardPlanes ul li {
+  padding: 8px;
+  margin: 8px;
+}
+.cardPlanes{
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.cardPrecio{
+  font-size: medium;
+}
+
+/*CARD CLASES*/
+.container-clases {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cardClases {
+  background-color: gold;
+  width: 370px;
+  height: auto;
+  margin:60px;
+  border-radius: 10px;
+}
+.card-image {
+  height: 270px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.funcional {
+  background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/curso%20online%20de%20entrenador%20personal%20y%20fitness-1599463348.jpg);
+}
+.musculacion {
+  background-image: url(https://i.pinimg.com/originals/da/be/2d/dabe2d869332159ecbe3c75dea240bd6.jpg);
+}
+.crossfit {
+  background-image: url(https://i.pinimg.com/originals/1b/2f/0a/1b2f0a363dff6c6a4ab95023855fffc8.jpg);
+}
+.cycle{
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/flywheel-1525623246.jpg?resize=1200:*);
+}
+.cardClases h3 {
+  padding: 10px;
+}
+.cardClases p {
+  padding: 10px;
+}
+.cardClases a{
+  background-color: black;
+  color: gold;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  border-radius: 8px;
+  text-decoration: none;
+}
