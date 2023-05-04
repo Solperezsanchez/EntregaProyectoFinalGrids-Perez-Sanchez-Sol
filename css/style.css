@@ -167,7 +167,11 @@ nav {
     width: 280px;
     height: 200px;
   }
+  .horariosImg{
+    width: 100vw;
+  }
 }
+
 
 /*MEDIA MOBILE*/
 @media (max-width: 768px) {
@@ -210,6 +214,17 @@ nav {
     grid-template-columns: repeat(1, 1fr);
     grid: gap 30px;
     padding: 35px 0px;
+  }
+  .divHorarios {
+    display: block;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin:auto;
+  }
+  .horariosImg{
+    width: 100%;
+    
   }
 
 
